@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            form  { display: table;  
+                    padding: 20px;    }
+            p     { display: table-row; 
+                    text-align: left; 
+                    color: white;}
+            label { display: table-cell; }
+            input { display: table-cell; }
+
+            body{
+                background-image: url(https://wallpaperaccess.com/full/3124541.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+        <form>
+            <fieldset  style="width: 100%; border: 3px solid white;">
+        <p>
+            <label>Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="enter your name"><br><br>
+        </p>
+        <p>
+            <label>Middle Name:</label>
+            <input type="text" id="mname" name="mname" placeholder="enter your middle name"><br><br>
+        </p>
+        <p>
+            <label>SurName:</label>
+            <input type="text" id="sname" name="sname"  placeholder="enter your surname"><br><br>
+        </p>
+        <p>   
+            <label> Email:</label>
+            <input type="Email" id="email" name="email"><br><br>
+        </p> 
+        <p>   
+            <label> Password:</label>
+            <input type="Password" id="pswd" name="pswd"><br><br>
+        </p> 
+        <p>
+            <label> Phone Number:</label>
+            <input type="number" id="num" name="num"><br><br>
+        </p>
+        <p>
+            <label>Address</label>
+            <textarea id="add" name="add" cols="20" rows="5"></textarea><br><br>
+        </p>
+        <p>
+            <label>Qualification:</label>
+            <select>
+            <option style="color: lightslategray;">Select Qualification</option>
+            <option>MCA</option>
+            <option>MBA</option>
+            <option>MA</option>
+            <option>MD</option>
+            </select>
+
+        </p><br>
+            
+     
+        <p>
+            <label>Gender</label>
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="feamle">Female
+            <input type="radio" id="gender" name="gender" value="pther">Other
+   
+            
+        </p>
+       <br><br>
+       
+       
+        <p>
+            <label>About:</label>
+            <textarea ></textarea>
+        </p>
+
+        <input type="submit" value="submit">
+         <input type="reset" value="reset">
+
+            
+        </form>
+    </fieldset>
+</center>
+    </body>
+
+</html>
